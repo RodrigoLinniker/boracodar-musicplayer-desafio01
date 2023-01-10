@@ -22,7 +22,7 @@ export function Description({
           className={`w-full h-full object-cover ${
             isPlaying ? "animate-pulse" : ""
           } `}
-          src={`/src/assets/music/${img}.jpg`}
+          src={`/assets/music/${img}.jpg`}
           alt={name}
         />
       </div>

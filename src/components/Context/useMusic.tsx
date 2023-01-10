@@ -147,7 +147,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
     >
       <>
         <audio
-          src={`/src/music/${songs[currentSongIndex].src}.mp3`}
+          src={`/music/${songs[currentSongIndex].src}.mp3`}
           ref={audioEl}
           onTimeUpdate={onPlaying}
         ></audio>
